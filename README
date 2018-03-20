@@ -1,0 +1,14 @@
+Tema 2 Protocoale de Comunicatii - Beldeanu Calin Victor 322CD
+
+Am preluat codul de la laboratorul 8 pentru ca facea apelul select cum trebuie .
+Am preluat cod si din labul 6 cel cu UDP.
+Am inceput cu citirea enuntului de cateva ori, apoi m-am apucat de implementare.
+Pentru transmiterea datelor am folosit un socket UDP si unul TCP asa cum este specificat.
+Am implementat pe rand comenzile respectand speciicatiile. Pentru clientii stiuti de server
+am creat o structura de tip "client" in care stochez informatiile din fisier . In cazul introdu-
+cerii de 3 ori a pinului gresit cardul se va bloca , eu asa am inteles din enunt , am citit si pe
+forum , nu cred ca e normal ca un client care greseste pinul de 2 ori sa isi scoata cardul si apoi 
+sa poata din nou sa incerce de 3 ori , asta ar insemna o bresa in sistem . De fiecare data cand greseste
+pinul se va contoriza si serverul va tine minte de cate ori a gresit clientul pinul .Dupa introducerea core-
+cta a pinului numarul de greseli a pinului se va reseta . In rest am respectat cerintele cerute , am creeat
+un fisier de tip log in care am retinut toate comenziile si raspunsurile date si primite de client. 
